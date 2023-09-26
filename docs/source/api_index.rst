@@ -1,10 +1,10 @@
-API
-===
+API Reference
+=============
 
-.. currentmodule:: software_practice_template
-----
 
-times
+Times
+------------
+.. currentmodule:: software_practice_template.times
 .. autosummary::
     :toctree: api_generated
     :template: function.rst
