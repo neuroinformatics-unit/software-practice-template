@@ -1,5 +1,5 @@
 [project]
-name = "software-practice-template"
+name = "rse-best-practices-playground"
 authors = [{name = "lauraporta", email= "l.porta@ucl.ac.uk"}]
 description = "A template to generate repositories used in teaching software skills"
 readme = "README.md"
@@ -20,12 +20,12 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/neuroinformatics-unit/software-practice-template"
-"Bug Tracker" = "https://github.com/neuroinformatics-unit/software-practice-template/issues"
-"Documentation" = "https://neuroinformatics-unit.github.io/software-practice-template"
+"Homepage" = "https://github.com/neuroinformatics-unit/rse-best-practices-playground"
+"Bug Tracker" = "https://github.com/neuroinformatics-unit/rse-best-practices-playground/issues"
+"Documentation" = "https://neuroinformatics-unit.github.io/rse-best-practices-playground"
 
-"Source Code" = "https://github.com/neuroinformatics-unit/software-practice-template"
-"User Support" = "https://github.com/neuroinformatics-unit/software-practice-template/issues"
+"Source Code" = "https://github.com/neuroinformatics-unit/rse-best-practices-playground"
+"User Support" = "https://github.com/neuroinformatics-unit/rse-best-practices-playground/issues"
 
 [project.optional-dependencies]
 dev = [
@@ -38,6 +38,12 @@ dev = [
   "pre-commit",
   "ruff",
   "setuptools_scm",
+  "sphinx",
+  "linkify-it-py",
+  "myst-parser",
+  "nbsphinx",
+  "pydata-sphinx-theme",
+  "sphinx-autodoc-typehints",
 ]
 
 [build-system]

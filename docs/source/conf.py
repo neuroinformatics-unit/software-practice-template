@@ -20,11 +20,12 @@ autodoc_mock_imports = []
 # use os.path.abspath to make it absolute, like shown here.
 sys.path.insert(0, os.path.abspath("../.."))
 
-project = "software-practice-template"
-copyright = "2022, lauraporta"
-author = "lauraporta"
+project = "Playground"
+copyright = "2023, neuroinformatics-unit"
+author = "neuroinformatics-unit"
 try:
     release = setuptools_scm.get_version(root="../..", relative_to=__file__)
+    release = release.split("+")[0]
 except LookupError:
     # if git is not initialised, still allow local build
     # with a dummy version
@@ -85,7 +86,7 @@ exclude_patterns = [
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 html_theme = "pydata_sphinx_theme"
-html_title = "software-practice-template"
+html_title = "rse-best-practices-playground"
 
 # Customize the theme
 html_theme_options = {
@@ -94,7 +95,7 @@ html_theme_options = {
             # Label for this link
             "name": "GitHub",
             # URL where the link will redirect
-            "url": "https://github.com/neuroinformatics-unit/software-practice-template",  # required
+            "url": "https://github.com/neuroinformatics-unit/rse-best-practices-playground",  # required
             # Icon class (if "type": "fontawesome"),
             # or path to local image (if "type": "local")
             "icon": "fa-brands fa-github",

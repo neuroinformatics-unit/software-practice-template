@@ -1,9 +1,9 @@
-.. software-practice-template documentation master file, created by
+.. rse-best-practices-playground documentation master file, created by
    sphinx-quickstart on Fri Dec  9 14:12:42 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to software-practice-template's documentation!
+Welcome to rse-best-practices-playground's documentation!
 =========================================================
 
 .. toctree::
