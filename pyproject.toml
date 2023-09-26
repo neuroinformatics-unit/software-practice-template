@@ -38,6 +38,12 @@ dev = [
   "pre-commit",
   "ruff",
   "setuptools_scm",
+  "sphinx",
+  "linkify-it-py",
+  "myst-parser",
+  "nbsphinx",
+  "pydata-sphinx-theme",
+  "sphinx-autodoc-typehints",
 ]
 
 [build-system]
