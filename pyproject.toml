@@ -1,7 +1,7 @@
 [project]
 name = "rse-best-practices-playground"
 authors = [{name = "lauraporta", email= "l.porta@ucl.ac.uk"}]
-description = "A template to generate repositories used in teaching software skills"
+description = "Improve your software development skills with this repo!"
 readme = "README.md"
 requires-python = ">=3.8.0"
 dynamic = ["version"]
@@ -58,12 +58,12 @@ build-backend = "setuptools.build_meta"
 include-package-data = true
 
 [tool.setuptools.packages.find]
-include = ["software_practice_template*"]
+include = ["rse_best_practices_playground*"]
 exclude = ["tests", "docs*"]
 
 
 [tool.pytest.ini_options]
-addopts = "--cov=software_practice_template"
+addopts = "--cov=rse_best_practices_playground"
 
 [tool.black]
 target-version = ['py38', 'py39', 'py310']
@@ -112,5 +112,5 @@ python =
 extras =
     dev
 commands =
-    pytest -v --color=yes --cov=software_practice_template --cov-report=xml
+    pytest -v --color=yes --cov=rse_best_practices_playground --cov-report=xml
 """
