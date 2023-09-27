@@ -1,0 +1,26 @@
+name: Create new issues from markdown files (.issues/) when this repo is used as a template for a new one
+
+on:
+  create: # Triggered when a repository is created from a template
+  issues:
+    types:
+      - created
+      - opened
+
+jobs:
+  create_issues:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Create issues from markdown files
+      run: |
+        for file in .issues/*.md; do
+          title=$(head -n 1 $file)
+          body=$(tail -n +2 $file)
+          echo "Creating issue with title: $title"
+          echo "$body" | gh issue create --title "$title" --body "$body"
+        done
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
