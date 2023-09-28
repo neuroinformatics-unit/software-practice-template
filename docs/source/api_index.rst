@@ -4,7 +4,7 @@ API Reference
 
 Times
 ------------
-.. currentmodule:: software_practice_template.times
+.. currentmodule:: rse_best_practices_playground.times
 .. autosummary::
     :toctree: api_generated
     :template: function.rst

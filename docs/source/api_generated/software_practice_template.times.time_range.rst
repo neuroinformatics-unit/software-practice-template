@@ -1,6 +1,6 @@
-﻿software\_practice\_template.times.time\_range
+﻿rse\_best\_practices\_playground.times.time\_range
 ==============================================
 
-.. currentmodule:: software_practice_template.times
+.. currentmodule:: rse_best_practices_playground.times
 
 .. autofunction:: time_range
