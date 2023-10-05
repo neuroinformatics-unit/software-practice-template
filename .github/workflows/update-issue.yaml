@@ -2,7 +2,7 @@ name: Create new issues from markdown files (.issues/) when this repo is used as
 
 on:
   release:
-  types: [published]
+    types: [published]
 
 jobs:
   create_issues:
