@@ -1,6 +1,7 @@
 include LICENSE
 include README.md
 
+recursive-include .issues *.md
 recursive-include rse_best_practices_playground *.py
 recursive-include tests *.py
 
