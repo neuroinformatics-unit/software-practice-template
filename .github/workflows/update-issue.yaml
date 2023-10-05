@@ -1,11 +1,8 @@
 name: Create new issues from markdown files (.issues/) when this repo is used as a template for a new one
 
 on:
-  create: # Triggered when a repository is created from a template
-  issues:
-    types:
-      - created
-      - opened
+  release:
+  types: [published]
 
 jobs:
   create_issues:
