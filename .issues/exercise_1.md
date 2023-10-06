@@ -25,7 +25,7 @@ def test_given_input():
     iv. On the PR text, comment on what you found difficult or interesting, or something you learned.
 5. Choose one of the other pull requests listed on this issue, and leave a review. Comment on things you find interesting or don't understand, any problems you think you spot, good solutions, or potential improvements.
 
-6. (Optional) What do you expect the output of `compute_overlap_time` is for time ranges that do not overlap? Write another unit test function `test_no_overlap` that check this. Does `compute_overlap_time` work as expected in this case? 
+6. (Optional) What do you expect the output of `compute_overlap_time` is for time ranges that do not overlap? Write another unit test function `test_no_overlap` that check this. Does `compute_overlap_time` work as expected in this case?
 ```python
 def test_no_overlap():
     ...
