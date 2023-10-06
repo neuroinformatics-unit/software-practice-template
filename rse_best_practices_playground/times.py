@@ -1,6 +1,24 @@
 import datetime
 
+my_level = "beginner"  # beginner or pro
 
+
+# ===============================================================
+# Beginner level
+# Use this method to do all the exercises
+# ===============================================================
+def calculate_fastest_time(time_list):
+    fastest_time = time_list[0]
+    for time in time_list:
+        if time > fastest_time:
+            fastest_time = time
+    return fastest_time
+
+
+# ===============================================================
+# Pro level
+# Use this method to do all the exercises
+# ===============================================================
 def time_range(
     start_time, end_time, number_of_intervals=1, gap_between_intervals_s=0
 ):
@@ -81,7 +99,21 @@ def time_range_less_precise(
     ]
 
 
+# ===============================================================
+# End of pro level
+# ===============================================================
+
+
+# The code below will only be executed if the file is run directly,
+# not if it is imported from another file.
+# __name__ is a special variable that gets a different value depending
+# on how the file is run.
+# If the file is run directly, __name__ is set to "__main__".
 if __name__ == "__main__":
-    large = time_range("2010-01-12 10:00:00", "2010-01-12 12:00:00")
-    short = time_range("2010-01-12 10:30:00", "2010-01-12 10:45:00", 2, 60)
-    print(compute_overlap_time(large, short))
+    if my_level == "beginner":
+        time_list = [1, 2, 3, 4]
+        print(calculate_fastest_time(time_list))
+    elif my_level == "pro":
+        large = time_range("2010-01-12 10:00:00", "2010-01-12 12:00:00")
+        short = time_range("2010-01-12 10:30:00", "2010-01-12 10:45:00", 2, 60)
+        print(compute_overlap_time(large, short))

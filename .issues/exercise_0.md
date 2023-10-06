@@ -34,4 +34,4 @@ A folder named `rse-best-practices-playground` should be listed.
 
 ## 6. (Optional) Have a look at the code
 
-You may want to study the code in `times.py`. You can find it by navigating to `rse-best-practices-playground` > `rse_best_practices_playground` > `times.py`. Can you figure out what the code is meant to do? 
+You may want to study the code in `times.py`. You can find it by navigating to `rse-best-practices-playground` > `rse_best_practices_playground` > `times.py`. Can you figure out what the code is meant to do?
