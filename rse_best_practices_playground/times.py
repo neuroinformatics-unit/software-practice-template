@@ -6,7 +6,7 @@ def time_range(
 ):
     """
     Example:
-    >>> time_range("2010-01-12 10:00:00", "2010-01-12 12:00:00", 2, 60)
+    >>> time_range("2010-01-12 10:00:00", "2010-01-12 12:00:00")
     [('2010-01-12 10:00:00', '2010-01-12 12:00:00')]
     """
     start_time_s = datetime.datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S")
