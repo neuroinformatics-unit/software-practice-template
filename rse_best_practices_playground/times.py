@@ -1,11 +1,15 @@
 import datetime
 
+# ===============================================================
+# Instructions
+# Change this variable to "pro" if you want to try the pro level.
+# ===============================================================
 my_level = "beginner"  # beginner or pro
 
 
 # ===============================================================
 # Beginner level
-# Use this method to do all the exercises
+# All students should try first to solve the problem at this level.
 # ===============================================================
 def calculate_fastest_time(time_list):
     fastest_time = time_list[0]
@@ -15,9 +19,18 @@ def calculate_fastest_time(time_list):
     return fastest_time
 
 
+def print_fastest_time(time_list):
+    fastest_time = time_list[0]
+    for time in time_list:
+        if time > fastest_time:
+            fastest_time = time
+
+    print(f"This is the fastest time: {fastest_time} 🚀")
+
+
 # ===============================================================
 # Pro level
-# Use this method to do all the exercises
+# Only for students who have solved the problem at the beginner level
 # ===============================================================
 def time_range(
     start_time, end_time, number_of_intervals=1, gap_between_intervals_s=0

@@ -1,22 +1,25 @@
-# Exercise 2
-This exercise will show how to do write a docstring.
+# Exercise 4
+For this exercise, we will look at how to rewrite (refactor) existing code in different ways, and what benefits each new structure offers.
 
-## Setup
-We suggest using [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html), i.e. the Numpy style guide for docstrings.
+## Let's refactor!
+According to what was presented in the slides, do you see ways to reduce duplication?
+Focus on the method `print_fastest_time` in `times.py`.
 
-## Write a docstring
-The method `calculate_fastest_time` in `times.py` doesn't have a docstring. Based on your understanding of the method, write a docstring using Numpy formatting. Describe what the method does, what are the inputs and the outputs.
+## Review your changes
+Run your script. Does it still behave as expected?
+**Do your tests still pass?**
 
 ## Submit a Pull Request
 Once you have completed or made progress on the exercise, commit your changes, push them to your fork and open a pull request and ask for a review.
 
 Create a **pull request (PR)** from your branch to `rse-best-practices-course-2023/rse-best-practices-playground` [using the GitHub web interface](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
-Add a meaningful title to that PR and a link to this issue: `rse-best-practices-course-2023/rse-best-practices-playground#2`.
+Add a meaningful title to that PR and a link to this issue: `rse-best-practices-course-2023/rse-best-practices-playground#4`.
+
 
 ## [Optional 1] Review a Pull Request
 If you already completed the above exercise, you can review a PR from another participant. You can find the submitted PRs in the [GitHub interface](
     https://www.github.com/rse-best-practices-course-2023/rse-best-practices-playground/pulls).
 
-## [Optional 2] Write docstrings for other methods
-If you have time, write docstrings for the other methods in `times.py` and submit a new PR.
+## [Optional 2] Refactor other methods
+If you have time, refactor the other methods in `times.py` and submit a new PR.
