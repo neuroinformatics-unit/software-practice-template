@@ -28,7 +28,7 @@ A folder named `rse-best-practices-playground` should be listed.
 In your command line, run
 
 ```{.bash}
-conda create -n "software-good-practice-course" python=3.11 
+conda create -n "software-good-practice-course" python=3.11
 ```
 ```{.bash}
 conda activate software-good-practice-course
