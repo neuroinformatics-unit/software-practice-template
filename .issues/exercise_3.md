@@ -1,5 +1,5 @@
 # Exercise 3
-This exercise will look at write a test to check that it works as expected.
+This exercise will look at write a test to check that our function works as expected.
 
 ## Setup
  Install the playground as a developer (`".[dev]"`), in editable (`-e`) mode, by navigating into the `rse-best-practices-playground` folder and running
@@ -7,6 +7,12 @@ This exercise will look at write a test to check that it works as expected.
 pip install -e ".[dev]"
 ```
 In this way you will have installed `pytest` and other useful tools for development.
+
+Checkout a new branch named `add-test` using `git`.
+
+```bash
+git checkout -b add-test
+```
 
 ## Write a test
 The next step consists of converting the __main__ part of the code into a unit test.
@@ -27,9 +33,9 @@ Run `pytest` on that directory and see whether the test is picked up by `pytest`
 ## Submit a Pull Request
 Once you have completed or made progress on the exercise, commit your changes, push them to your fork and open a pull request and ask for a review.
 
-Create a **pull request (PR)** from your branch to `rse-best-practices-course-2023/rse-best-practices-playground` [using the GitHub web interface](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+Create a **pull request (PR)** from your branch to `UCL-bioimage-analysis/rse-best-practices-playground-2024` [using the GitHub web interface](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
-Add a meaningful title to that PR and a link to this issue: `rse-best-practices-course-2023/rse-best-practices-playground#3`.
+Add a meaningful title to that PR and a link to this issue: `UCL-bioimage-analysis/rse-best-practices-playground-2024#3`.
 
 ## [Optional 1] Write more tests for `calculate_fastest_time`
 Do you see any other ways the method `calculate_fastest_time` could fail?

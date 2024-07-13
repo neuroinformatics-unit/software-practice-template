@@ -7,13 +7,17 @@ on:
 jobs:
   create_issues:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
     - name: Create issues from markdown files
       run: |
-        for file in .issues/*.md; do
+        cd .issues/
+        for file in $( ls | sort -n ); do
           title=$(head -n 1 $file)
           body=$(tail -n +2 $file)
           echo "Creating issue with title: $title"
