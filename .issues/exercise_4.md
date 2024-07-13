@@ -20,14 +20,14 @@ Run your script. Does it still behave as expected?
 ## Submit a Pull Request
 Once you have completed or made progress on the exercise, commit your changes, push them to your fork and open a pull request and ask for a review.
 
-Create a **pull request (PR)** from your branch to `UCL-bioimage-analysis/rse-best-practices-playground-2024` [using the GitHub web interface](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+Create a **pull request (PR)** from your branch to `UCL-bioimage-analysis/rse-best-practices-playground` [using the GitHub web interface](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
-Add a meaningful title to that PR and a link to this issue: `rse-best-practices-course-2023/rse-best-practices-playground#4`.
+Add a meaningful title to that PR and a link to this issue: `UCL-bioimage-analysis/rse-best-practices-playground#4`.
 
 
 ## [Optional 1] Review a Pull Request
 If you already completed the above exercise, you can review a PR from another participant. You can find the submitted PRs in the [GitHub interface](
-    https://www.github.com/UCL-bioimage-analysis/rse-best-practices-playground-2024/pulls).
+    https://www.github.com/UCL-bioimage-analysis/rse-best-practices-playground/pulls).
 
 ## [Optional 2] Refactor other methods
 If you have time, refactor the other methods in `times.py` and submit a new PR.

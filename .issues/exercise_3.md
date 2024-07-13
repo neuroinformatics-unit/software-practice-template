@@ -33,9 +33,9 @@ Run `pytest` on that directory and see whether the test is picked up by `pytest`
 ## Submit a Pull Request
 Once you have completed or made progress on the exercise, commit your changes, push them to your fork and open a pull request and ask for a review.
 
-Create a **pull request (PR)** from your branch to `UCL-bioimage-analysis/rse-best-practices-playground-2024` [using the GitHub web interface](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+Create a **pull request (PR)** from your branch to `UCL-bioimage-analysis/rse-best-practices-playground` [using the GitHub web interface](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
-Add a meaningful title to that PR and a link to this issue: `UCL-bioimage-analysis/rse-best-practices-playground-2024#3`.
+Add a meaningful title to that PR and a link to this issue: `UCL-bioimage-analysis/rse-best-practices-playground#3`.
 
 ## [Optional 1] Write more tests for `calculate_fastest_time`
 Do you see any other ways the method `calculate_fastest_time` could fail?

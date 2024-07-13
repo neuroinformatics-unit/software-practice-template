@@ -21,7 +21,7 @@ autodoc_mock_imports = []
 sys.path.insert(0, os.path.abspath("../.."))
 
 project = "Playground"
-copyright = "2023, neuroinformatics-unit"
+copyright = "2023-2024, neuroinformatics-unit"
 author = "neuroinformatics-unit"
 try:
     release = setuptools_scm.get_version(root="../..", relative_to=__file__)
