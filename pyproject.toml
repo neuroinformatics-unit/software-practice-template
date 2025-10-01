@@ -3,7 +3,7 @@ name = "rse-best-practices-playground"
 authors = [{name = "lauraporta", email= "l.porta@ucl.ac.uk"}]
 description = "Improve your software development skills with this repo!"
 readme = "README.md"
-requires-python = ">=3.8.0"
+requires-python = ">=3.11.0"
 dynamic = ["version"]
 
 license = {text = "BSD-3-Clause"}
@@ -11,10 +11,9 @@ license = {text = "BSD-3-Clause"}
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Operating System :: OS Independent",
     "License :: OSI Approved :: BSD License",
 ]
@@ -66,7 +65,7 @@ exclude = ["tests", "docs*"]
 addopts = "--cov=rse_best_practices_playground"
 
 [tool.black]
-target-version = ['py38', 'py39', 'py310']
+target-version = ['py311', 'py39', 'py310']
 skip-string-normalization = false
 line-length = 79
 
@@ -83,30 +82,23 @@ ignore = [
   "docs/source/",
 ]
 
-
 [tool.ruff]
 line-length = 79
 exclude = ["__init__.py","build",".eggs"]
 select = ["I", "E", "F"]
 fix = true
 
-[tool.cibuildwheel]
-build = "cp38-* cp39-* cp310-*"
-
-[tool.cibuildwheel.macos]
-archs = ["x86_64", "arm64"]
-
 [tool.tox]
 legacy_tox_ini = """
 [tox]
-envlist = py{38,39,310}
+envlist = py{311,312,313}
 isolated_build = True
 
 [gh-actions]
 python =
-    3.8: py38
-    3.9: py39
-    3.10: py310
+    3.11: py311
+    3.12: py312
+    3.13: py313
 
 [testenv]
 extras =
